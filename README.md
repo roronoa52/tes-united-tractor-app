@@ -20,13 +20,17 @@ Pastikan Anda sudah menginstal:
    cd project-name
 
 2. **Install dependencies:**:
-   ```composer install
+   ```bash
+   composer install
 
 3. **Generate application key:**:
-   ```php artisan key:generate
+   ```bash
+   php artisan key:generate
 
 4. **Generate JWT key:**:
-   ```php artisan jwt:secret
+   ```bash
+   php artisan jwt:secret
 
 5. **Jalankan server lokal:**:
-   ```php artisan serve
+   ```bash
+   php artisan serve
