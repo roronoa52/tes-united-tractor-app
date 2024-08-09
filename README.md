@@ -18,20 +18,15 @@ Pastikan Anda sudah menginstal:
    ```bash
    git clone https://github.com/username/project-name.git
    cd project-name
-   ```
 
 2. **Install dependencies:**:
-   ``` composer install
-   ```
+   ```composer install
 
 3. **Generate application key:**:
-   ``` php artisan key:generate
-   ```
+   ```php artisan key:generate
 
 4. **Generate JWT key:**:
-   ``` php artisan jwt:secret
-   ```
+   ```php artisan jwt:secret
 
 5. **Jalankan server lokal:**:
-   ``` php artisan serve
-   ```
+   ```php artisan serve
